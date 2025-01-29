@@ -1,3 +1,4 @@
+
 public class Bank {
 	
 	int openBalance=0;
@@ -8,7 +9,6 @@ public class Bank {
 		//super();
 		this.openBalance = openBalance;
 	}
-
 	void deposit(int amt) {
 		this.openBalance = this.openBalance + amt;
 		System.out.println("successfully deposited------>"+amt);
@@ -22,13 +22,10 @@ public class Bank {
 	void checkBalance() {
 		System.out.println("avl balance-->"+this.openBalance);
 	}
-
 	@Override
 	public String toString() {
-		return "Bank [openBalance=" + openBalance + "]";
-
+		return "Bank [openBalance=" + openBalance + "]";
 	}
 	
 	
-
 }
